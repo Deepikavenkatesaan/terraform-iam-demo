@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket       = "deepika-iam-onboarding-tfstate"
+    bucket       = "deeepika-iam-onboarding-tfstate"
     key          = "iam-onboarding/terraform.tfstate"
     region       = "us-east-1"
     encrypt      = true
