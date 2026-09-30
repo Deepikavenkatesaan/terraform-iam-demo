@@ -12,7 +12,7 @@ if [[ ! "$IAM_USERNAME" =~ ^demo-[A-Za-z0-9_+=,.@-]+$ ]]; then
 fi
 
 case "$IAM_GROUP" in
-  cb-auth-development|cb-auth-sandbox|cb-auth-production)
+  cb-artifactory-readaccess|cb-dev-admin-dbaccess|cb-prod-admin-dbaccess)
     ;;
   *)
     echo "Invalid cb-auth group"
