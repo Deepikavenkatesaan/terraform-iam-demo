@@ -1,8 +1,8 @@
 locals {
   allowed_cb_auth_groups = toset([
-    "cb-auth-development",
-    "cb-auth-sandbox",
-    "cb-auth-production"
+    "cb-artifactory-readaccess",
+    "cb-dev-admin-dbaccess",
+    "cb-prod-admin-dbaccess"
   ])
 }
 
